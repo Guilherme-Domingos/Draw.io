@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17" pages="5">
   <diagram name="Página-1" id="OJiWizrmhpICs5Eh5iOZ">
     <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -368,6 +368,152 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="350" y="300" as="sourcePoint" />
             <mxPoint x="510" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GziHFVA6w_J_HuwfLwEc" name="Página-5">
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="whWLVmRFjEP1dx3iAE6P-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="580" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="whWLVmRFjEP1dx3iAE6P-2" value="Sistema de reservas de Viagens" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="whWLVmRFjEP1dx3iAE6P-3" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="whWLVmRFjEP1dx3iAE6P-4" value="Administrador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="215" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="whWLVmRFjEP1dx3iAE6P-5" value="Procurar Voos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="80" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="whWLVmRFjEP1dx3iAE6P-7" value="Cancelar uma reserva" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="540" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tOTuVr-eH-kgekAuJGeO-1" value="Pagar reservas" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="490" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tOTuVr-eH-kgekAuJGeO-2" value="E-mails de confirmação" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="330" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tOTuVr-eH-kgekAuJGeO-3" value="Gerenciar ofertas de pacotes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="80" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tOTuVr-eH-kgekAuJGeO-4" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="whWLVmRFjEP1dx3iAE6P-3" target="whWLVmRFjEP1dx3iAE6P-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="300" as="sourcePoint" />
+            <mxPoint x="490" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOTuVr-eH-kgekAuJGeO-6" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="whWLVmRFjEP1dx3iAE6P-3" target="whWLVmRFjEP1dx3iAE6P-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="65" y="170" as="sourcePoint" />
+            <mxPoint x="193" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOTuVr-eH-kgekAuJGeO-7" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="whWLVmRFjEP1dx3iAE6P-3" target="tOTuVr-eH-kgekAuJGeO-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="75" y="180" as="sourcePoint" />
+            <mxPoint x="203" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOTuVr-eH-kgekAuJGeO-9" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="tOTuVr-eH-kgekAuJGeO-1" target="tOTuVr-eH-kgekAuJGeO-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="526.38047488435" y="535.0982398210824" as="sourcePoint" />
+            <mxPoint x="490" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOTuVr-eH-kgekAuJGeO-10" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tOTuVr-eH-kgekAuJGeO-3" target="whWLVmRFjEP1dx3iAE6P-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="300" as="sourcePoint" />
+            <mxPoint x="490" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOTuVr-eH-kgekAuJGeO-11" value="Procurar hotéis" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="80" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tOTuVr-eH-kgekAuJGeO-12" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="whWLVmRFjEP1dx3iAE6P-3" target="tOTuVr-eH-kgekAuJGeO-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="55" y="255" as="sourcePoint" />
+            <mxPoint x="207" y="158" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOTuVr-eH-kgekAuJGeO-13" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="whWLVmRFjEP1dx3iAE6P-3" target="tOTuVr-eH-kgekAuJGeO-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="65" y="265" as="sourcePoint" />
+            <mxPoint x="50" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOTuVr-eH-kgekAuJGeO-14" value="Procurar pacotes de viagem" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="120" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tOTuVr-eH-kgekAuJGeO-15" value="Fazer reserva de voos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tOTuVr-eH-kgekAuJGeO-16" value="Reserva de pacote de viagem" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="350" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tOTuVr-eH-kgekAuJGeO-17" value="Fazer reserva de hotel" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="270" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tOTuVr-eH-kgekAuJGeO-18" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="whWLVmRFjEP1dx3iAE6P-3" target="tOTuVr-eH-kgekAuJGeO-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="300" as="sourcePoint" />
+            <mxPoint x="490" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOTuVr-eH-kgekAuJGeO-19" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="whWLVmRFjEP1dx3iAE6P-3" target="tOTuVr-eH-kgekAuJGeO-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="55" y="290" as="sourcePoint" />
+            <mxPoint x="282" y="263" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOTuVr-eH-kgekAuJGeO-20" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=3;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="whWLVmRFjEP1dx3iAE6P-3" target="tOTuVr-eH-kgekAuJGeO-16">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="65" y="300" as="sourcePoint" />
+            <mxPoint x="292" y="273" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOTuVr-eH-kgekAuJGeO-21" value="Pagar com boleto" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="440" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tOTuVr-eH-kgekAuJGeO-23" value="Pagar com cartão" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="540" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tOTuVr-eH-kgekAuJGeO-29" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="tOTuVr-eH-kgekAuJGeO-21" target="tOTuVr-eH-kgekAuJGeO-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="300" as="sourcePoint" />
+            <mxPoint x="490" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOTuVr-eH-kgekAuJGeO-30" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="tOTuVr-eH-kgekAuJGeO-23" target="tOTuVr-eH-kgekAuJGeO-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="510" y="488" as="sourcePoint" />
+            <mxPoint x="440" y="492" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOTuVr-eH-kgekAuJGeO-32" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="tOTuVr-eH-kgekAuJGeO-15" target="tOTuVr-eH-kgekAuJGeO-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="300" as="sourcePoint" />
+            <mxPoint x="490" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOTuVr-eH-kgekAuJGeO-34" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="tOTuVr-eH-kgekAuJGeO-17" target="tOTuVr-eH-kgekAuJGeO-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="475" y="275" as="sourcePoint" />
+            <mxPoint x="555" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOTuVr-eH-kgekAuJGeO-35" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="tOTuVr-eH-kgekAuJGeO-16" target="tOTuVr-eH-kgekAuJGeO-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="485" y="285" as="sourcePoint" />
+            <mxPoint x="565" y="355" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
