@@ -1,9 +1,68 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.1">
   <diagram name="Página-1" id="FBoyCTvay8h4PXtJzJZi">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xYXeUd49hCniEaqEkRde-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="390" y="50" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xYXeUd49hCniEaqEkRde-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="xYXeUd49hCniEaqEkRde-1" parent="1" target="xYXeUd49hCniEaqEkRde-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYXeUd49hCniEaqEkRde-3" value="Inserir dados do empréstimo" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="150" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xYXeUd49hCniEaqEkRde-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xYXeUd49hCniEaqEkRde-4" target="xYXeUd49hCniEaqEkRde-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xYXeUd49hCniEaqEkRde-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xYXeUd49hCniEaqEkRde-4" target="xYXeUd49hCniEaqEkRde-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xYXeUd49hCniEaqEkRde-4" value="" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="390" y="280" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xYXeUd49hCniEaqEkRde-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="xYXeUd49hCniEaqEkRde-4" target="xYXeUd49hCniEaqEkRde-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYXeUd49hCniEaqEkRde-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xYXeUd49hCniEaqEkRde-6" target="xYXeUd49hCniEaqEkRde-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xYXeUd49hCniEaqEkRde-6" value="Empréstimo negado" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="480" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xYXeUd49hCniEaqEkRde-8" value="Validar Empréstimo" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="450" y="380" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xYXeUd49hCniEaqEkRde-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xYXeUd49hCniEaqEkRde-11" target="xYXeUd49hCniEaqEkRde-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xYXeUd49hCniEaqEkRde-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xYXeUd49hCniEaqEkRde-11" target="xYXeUd49hCniEaqEkRde-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xYXeUd49hCniEaqEkRde-11" value="" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="490" y="490" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xYXeUd49hCniEaqEkRde-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xYXeUd49hCniEaqEkRde-12" target="xYXeUd49hCniEaqEkRde-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xYXeUd49hCniEaqEkRde-12" value="Empréstimo validado" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="450" y="570" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xYXeUd49hCniEaqEkRde-19" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="390" y="700" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xYXeUd49hCniEaqEkRde-22" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="xYXeUd49hCniEaqEkRde-11" target="xYXeUd49hCniEaqEkRde-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
