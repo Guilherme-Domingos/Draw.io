@@ -1,6 +1,73 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
-  <diagram name="Página-1" id="p3ysw4HHk6lHsNhrsWlz">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1" pages="2">
+  <diagram name="Semáforo" id="p3ysw4HHk6lHsNhrsWlz">
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZywUjF4J5wqGtacCLipy-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="130" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZywUjF4J5wqGtacCLipy-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="ZywUjF4J5wqGtacCLipy-1" parent="1" target="ZywUjF4J5wqGtacCLipy-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZywUjF4J5wqGtacCLipy-3" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="320" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZywUjF4J5wqGtacCLipy-4" value="Verde" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZywUjF4J5wqGtacCLipy-5" value="Amarelo" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="610" y="120" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZywUjF4J5wqGtacCLipy-6" value="Vermelho" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZywUjF4J5wqGtacCLipy-8" value="Tráfego Liberado" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZywUjF4J5wqGtacCLipy-9" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="ZywUjF4J5wqGtacCLipy-4" target="ZywUjF4J5wqGtacCLipy-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="460" y="370" as="sourcePoint" />
+            <mxPoint x="620" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZywUjF4J5wqGtacCLipy-10" value="alerta de estado" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZywUjF4J5wqGtacCLipy-12" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="ZywUjF4J5wqGtacCLipy-5" target="ZywUjF4J5wqGtacCLipy-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="460" y="370" as="sourcePoint" />
+            <mxPoint x="620" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="665" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZywUjF4J5wqGtacCLipy-13" value="tráfego interrompido" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="504" y="310" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZywUjF4J5wqGtacCLipy-14" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="ZywUjF4J5wqGtacCLipy-6" target="ZywUjF4J5wqGtacCLipy-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="460" y="370" as="sourcePoint" />
+            <mxPoint x="620" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZywUjF4J5wqGtacCLipy-18" value="Chegada de horário" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="211" y="310" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZywUjF4J5wqGtacCLipy-19" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="ZywUjF4J5wqGtacCLipy-6" target="ZywUjF4J5wqGtacCLipy-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="300" as="sourcePoint" />
+            <mxPoint x="490" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Sm3xC4AZQ1_U5kp0VWpE" name="café">
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
