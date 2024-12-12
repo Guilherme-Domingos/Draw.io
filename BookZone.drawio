@@ -298,6 +298,27 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="e9rpa3xhlqHLYR9RX9Kk-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;pablo: Cliente&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;nome = &quot;Pablo Henrique&quot;&lt;br&gt;email = &quot;pablo@email.com&quot;&lt;br&gt;cpf = &quot;000.000.000-14&quot;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="340" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ds36uLrI3aUB74KUliNE-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;venda1: Venda&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;idVenda = 01&lt;br&gt;&lt;/p&gt;&lt;div&gt;&amp;nbsp; dataVenda: 01/01/2024&lt;/div&gt;&lt;div&gt;&amp;nbsp; cliente: pablo&lt;/div&gt;&lt;div&gt;&amp;nbsp; livro: livro1&lt;/div&gt;&lt;div&gt;&amp;nbsp; valorTotal: 70.50&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="120" y="460" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6iHAt__uL-4NCY4Zt_C2-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;livro1: Livro&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;titulo = &quot;Senhor dos Aneis&quot;&lt;br&gt;autor = &quot;Alessandro&quot;&lt;br&gt;genero = &quot;fantasia&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;preco = 70.50&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;quantidadeEstoque = 10&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="540" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kSm1bx0RWWNJYU2kJY_n-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="ds36uLrI3aUB74KUliNE-1" target="e9rpa3xhlqHLYR9RX9Kk-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="530" as="sourcePoint" />
+            <mxPoint x="440" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kSm1bx0RWWNJYU2kJY_n-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="ds36uLrI3aUB74KUliNE-1" target="6iHAt__uL-4NCY4Zt_C2-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="530" as="sourcePoint" />
+            <mxPoint x="440" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
