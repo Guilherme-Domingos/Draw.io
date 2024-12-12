@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="gZxcKw0YynEc7-aquGhC-1" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="160" width="30" height="60" as="geometry" />
+          <mxGeometry x="-130" y="160" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gZxcKw0YynEc7-aquGhC-2" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1010" y="560" width="30" height="60" as="geometry" />
@@ -14,19 +14,13 @@
           <mxGeometry x="1010" y="160" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gZxcKw0YynEc7-aquGhC-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="40" width="1120" height="740" as="geometry" />
+          <mxGeometry x="-60" y="40" width="1030" height="740" as="geometry" />
         </mxCell>
         <mxCell id="gZxcKw0YynEc7-aquGhC-6" value="Sistema gestão livraria - BookZone" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="40" width="210" height="30" as="geometry" />
+          <mxGeometry x="-60" y="40" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gZxcKw0YynEc7-aquGhC-7" value="Realizar autenticação" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="80" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="gZxcKw0YynEc7-aquGhC-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="gZxcKw0YynEc7-aquGhC-1" target="gZxcKw0YynEc7-aquGhC-7">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="330" as="sourcePoint" />
-            <mxPoint x="440" y="280" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="gZxcKw0YynEc7-aquGhC-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="gZxcKw0YynEc7-aquGhC-3" target="gZxcKw0YynEc7-aquGhC-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -113,13 +107,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gZxcKw0YynEc7-aquGhC-30" value="cadastro de clientes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="450" width="140" height="70" as="geometry" />
+          <mxGeometry x="447" y="440" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gZxcKw0YynEc7-aquGhC-31" value="edição de clientes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="450" width="140" height="70" as="geometry" />
+          <mxGeometry x="630" y="440" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gZxcKw0YynEc7-aquGhC-32" value="exclusão de clientes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="810" y="450" width="140" height="70" as="geometry" />
+          <mxGeometry x="810" y="440" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gZxcKw0YynEc7-aquGhC-33" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="gZxcKw0YynEc7-aquGhC-30" target="gZxcKw0YynEc7-aquGhC-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -140,7 +134,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gZxcKw0YynEc7-aquGhC-36" value="Adicionar livro ao carrinho" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="260" width="140" height="70" as="geometry" />
+          <mxGeometry x="-10" y="170" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gZxcKw0YynEc7-aquGhC-37" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="gZxcKw0YynEc7-aquGhC-36" target="gZxcKw0YynEc7-aquGhC-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -149,7 +143,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gZxcKw0YynEc7-aquGhC-38" value="Finalizar compra" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="430" width="140" height="70" as="geometry" />
+          <mxGeometry x="160" y="490" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gZxcKw0YynEc7-aquGhC-40" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="gZxcKw0YynEc7-aquGhC-38" target="gZxcKw0YynEc7-aquGhC-36">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -158,12 +152,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gZxcKw0YynEc7-aquGhC-41" value="Visualizar histórico de compras" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="500" width="140" height="70" as="geometry" />
+          <mxGeometry y="620" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gZxcKw0YynEc7-aquGhC-42" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="gZxcKw0YynEc7-aquGhC-41" target="gZxcKw0YynEc7-aquGhC-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="430" as="sourcePoint" />
             <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZxcKw0YynEc7-aquGhC-43" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="gZxcKw0YynEc7-aquGhC-36" target="gZxcKw0YynEc7-aquGhC-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="410" as="sourcePoint" />
+            <mxPoint x="490" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
