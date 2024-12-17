@@ -43,7 +43,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WRAGzghSTXue4uNCP3pj-19" value="Registra consulta na agenda do médico" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WRAGzghSTXue4uNCP3pj-19" value="Sistema registra consulta na agenda do médico" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WRAGzghSTXue4uNCP3pj-20" value="" style="group" vertex="1" connectable="0" parent="1">
