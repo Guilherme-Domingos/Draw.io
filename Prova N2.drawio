@@ -283,8 +283,8 @@
             <mxPoint x="390" y="301" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TmmxrxceFXL7ZgEXiYcT-21" value="verificaDisponibilidade()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="445" y="220" width="150" height="30" as="geometry" />
+        <mxCell id="TmmxrxceFXL7ZgEXiYcT-21" value="verificaDisponibilidade(data)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="435" y="220" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TmmxrxceFXL7ZgEXiYcT-24" value="realizarReserva()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -316,22 +316,87 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="4dJ-pWdElzttltr_yfVc" name="Página-4">
+  <diagram id="4dJ-pWdElzttltr_yfVc" name="colaboração">
     <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FAQ19_OWT2CKEywxMnN7-1" value="Paciente" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="80" y="200" width="110" height="50" as="geometry" />
+        <mxCell id="FAQ19_OWT2CKEywxMnN7-1" value=": Paciente" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FAQ19_OWT2CKEywxMnN7-2" value="Sistema" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="360" y="370" width="110" height="50" as="geometry" />
+        <mxCell id="FAQ19_OWT2CKEywxMnN7-2" value=": Sistema" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="280" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FAQ19_OWT2CKEywxMnN7-3" value="Agenda do médico" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="370" y="230" width="110" height="50" as="geometry" />
+        <mxCell id="FAQ19_OWT2CKEywxMnN7-3" value=": Agenda do médico" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="480" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FAQ19_OWT2CKEywxMnN7-4" value="Médico" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="570" y="290" width="110" height="50" as="geometry" />
+        <mxCell id="FAQ19_OWT2CKEywxMnN7-4" value=": Médico" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="660" y="280" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2FoIwYSalV_rhXV75rNJ-1" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FAQ19_OWT2CKEywxMnN7-1" target="FAQ19_OWT2CKEywxMnN7-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2FoIwYSalV_rhXV75rNJ-2" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FAQ19_OWT2CKEywxMnN7-3" target="FAQ19_OWT2CKEywxMnN7-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2FoIwYSalV_rhXV75rNJ-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FAQ19_OWT2CKEywxMnN7-2" target="FAQ19_OWT2CKEywxMnN7-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wJqKRcB5Dp2N5gijNTbr-2" value="1: solicitaConsulta()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="200" y="260" as="sourcePoint" />
+            <mxPoint x="280" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wJqKRcB5Dp2N5gijNTbr-3" value="2: verificaDisponibilidade()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.25" y="80" width="80" relative="1" as="geometry">
+            <mxPoint x="430" y="380" as="sourcePoint" />
+            <mxPoint x="430" y="450" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nITeRJk8kU1u1x88h2Xl-1" value="3: disponibilidade()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.1429" y="60" width="80" relative="1" as="geometry">
+            <mxPoint x="380" y="450" as="sourcePoint" />
+            <mxPoint x="380" y="380" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nITeRJk8kU1u1x88h2Xl-2" value="4: registraConsulta()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="60" width="80" relative="1" as="geometry">
+            <mxPoint x="610" y="390" as="sourcePoint" />
+            <mxPoint x="610" y="450" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5vXmfsgYzuJKseTf2c0Q-1" value="5: confirmação()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="290" y="350" as="sourcePoint" />
+            <mxPoint x="200" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5vXmfsgYzuJKseTf2c0Q-2" value="6: agendamendamento()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="9" width="80" relative="1" as="geometry">
+            <mxPoint x="520" y="250" as="sourcePoint" />
+            <mxPoint x="600" y="250" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5vXmfsgYzuJKseTf2c0Q-3" value="7: statusConsulta()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.1429" y="-10" width="80" relative="1" as="geometry">
+            <mxPoint x="600" y="350" as="sourcePoint" />
+            <mxPoint x="530" y="350" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
